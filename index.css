@@ -1,0 +1,406 @@
+body{
+    text-align: center;
+    color:
+	#0011ff;
+
+    font-family: 'Lacquer', cursive;
+}
+
+
+
+html{
+	background-color: black;
+	background: url('https://pro2-bar-s3-cdn-cf.myportfolio.com/4288fcce-69e9-4e63-b78c-06e5f8a20917/b3a651a3-b09a-486d-9654-9bbd0b844c34_rw_1920.png?h=403c907f9d629b64bf5b0d2170b1b6ba') no-repeat center fixed;     
+    background-size: cover;
+	
+}
+
+
+button{
+	padding: 20px;
+	margin: 20px;
+	border-radius: 5px;
+	border-color: greenyellow;
+	color: orangered;
+	background-color:#859BFF;
+}
+
+button:hover{
+	color: powderblue;
+	border-color: powderblue;
+	background-color: #da5959;
+}
+
+
+
+
+
+
+.box {
+	
+
+    background-color: rgb(5, 242, 219, 0.8) ;
+    
+	border-radius: 20px;
+    border: 10px solid rgb(167, 242, 5, 0.4) ;
+    padding: 50px 0;
+    margin: 20px;
+
+    margin-left: auto;
+    margin-right: auto;
+    width: 35em
+    
+
+	  
+  }
+
+
+
+
+
+
+ /*colums*/
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+  height: 500px; /* Should be removed. Only for demonstration */
+
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+nft-card{
+    margin: 50px;
+}
+
+h1{
+	color: #291AE0;
+}
+h2{
+	color: black;
+	background: -webkit-linear-gradient(rgb(129, 33, 153),rgb(214, 63, 176) );
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+p1{
+    color: #0468BF;
+}
+i:hover{
+color: rgb(230, 78, 78);
+}
+
+h3{
+    color: rgb(196, 0, 0);
+	font-size: 20px;
+}
+
+h3:hover{
+	color: white;
+}
+
+h5{
+	font-size: 25px;
+	background: -webkit-linear-gradient(rgb(180, 24, 241), blue );
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+ /*Bear*/
+
+.teddy {
+	font-size: calc(50vmin / 260);
+	position: relative;
+	margin: auto;
+	width: 260em;
+	height: 330em;
+}
+.teddy div {
+	position: absolute;
+}
+.right-ear, .left-ear, .head, .right-eye, .left-eye, .mouth-area, .nose, .nose-inner, .right-cheek, .left-cheek, .body, .paw, .foot {
+	border-radius: 50%;
+}
+.right-ear, .left-ear {
+	background: #05f297;
+	box-shadow: 0 0 0 20em #059bf2 inset;
+	width: 80em;
+	height: 80em;
+}
+.right-ear {
+	left: 30em;
+}
+.left-ear {
+	right: 30em;
+}
+.head {
+	background: 
+	#05F2DB;
+	width: 160em;
+	height: 160em;
+	right: 0;
+	left: 0;
+	margin: auto;
+	z-index: 1;
+}
+.right-eye, .left-eye, .nose-inner {
+	background: rgb(255, 255, 255);
+}
+.right-eye, .left-eye {
+	box-shadow: 2em -2em 0 8em inset;
+	top: 65em;
+	width: 20em;
+	height: 20em;
+    color: #C196F2;
+}
+.right-eye {
+	left: 45em;
+}
+.left-eye {
+	right: 45em;
+}
+.mouth-area {
+	background: #059bf2;
+	right: 0;
+	bottom: 5em;
+	left: 0;
+	margin: auto;
+	width: 100em;
+	height: 70em;
+}
+.nose {
+	background: rgb(0,0,0);
+	top: 15em;
+	right: 0;
+	left: 0;
+	margin: auto;
+	width: 40em;
+	height: 30em;
+}
+.nose-inner {
+	top: 3em;
+	right: 8em;
+	width: 10em;
+	height: 8em;
+}
+.right-cheek, .left-cheek {
+	bottom: 10em;
+	width: 30em;
+	height: 30em;
+}
+.right-cheek {
+	box-shadow: -2em -2em 0 0 #0468BF inset;
+	left: 20em;
+}
+.left-cheek {
+	box-shadow: 2em -2em 0 0 #0468BF inset;
+	right: 20em;
+}
+.body {
+	background: 
+	
+#059bf2;
+	box-shadow: 0 0 0 24em 
+	#0468BF inset;
+	margin: auto;
+	right: 0;
+	bottom: 22em;
+	left: 0;
+	width: 170em;
+	height: 190em;
+}
+.right-arm, .left-arm {
+	background: 
+	#0468BF;
+	top: 130em;
+	width: 70em;
+	height: 60em;
+}
+.right-arm {
+	border-radius: 70em 0 0 0 / 60em 0 0 0;
+	left: 0;
+}
+.right-arm .arm-inner {
+	border-radius: 50em 0 0 0 / 80em 0 0 0;
+	box-shadow: 22em 22em 0 0 
+	#0468BF inset;
+	left: 55em;
+}
+.left-arm, .left-arm .paw {
+	right: 0;
+}
+.left-arm {
+	border-radius: 0 70em 0 0 / 0 60em 0 0;
+}
+.left-arm .arm-inner {
+	border-radius: 0 50em 0 0 / 0 80em 0 0;
+	box-shadow: -22em 22em 0 0 
+	#0468BF inset;
+	right: 55em;
+}
+.arm-inner {
+	width: 50em;
+	height: 80em;
+	bottom: 0;
+}
+.paw {
+	background: 
+	#05F2DB;
+	width: 80em;
+	height: 60em;
+	top: 30em;
+}
+.right-leg, .left-leg {
+	background: 
+	#05F2DB;
+	border-radius: 45em 45em 0 0 / 70em 70em 0 0;
+	bottom: 40em;
+	width: 90em;
+	height: 70em;
+}
+.right-leg  {
+	left: 10em;
+}
+.left-leg  {
+	right: 10em;
+}
+.foot  {
+	background: #059bf2;
+	box-shadow: 0 5em 0 10em 
+	#0468BF inset;
+	width: 100%;
+	height: 80em;
+	top: 30em;
+}
+
+
+
+
+
+
+
+
+
+ /*Nav Bar*/
+
+
+
+body {margin: 0;}
+
+
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: fixed;
+ 
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+  display: block;
+  color: #0011ff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: rgb(115, 236, 99);}
+
+ul.topnav li a.active {background-color: rgb(5, 242, 219);}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
+}
+
+
+
+
+
+
+
+img {
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	padding: 5px;
+	width: 150px;
+	
+  }
+  
+ 
+
+
+
+
+
+
+  /*Heart*/
+
+ 
+  
+  
+  .heart {
+	background-color: red;
+	display: inline-block;
+	height: 30px;
+	margin: 0 10px;
+	position: relative;
+	top: 0;
+	transform: rotate(-45deg);
+	width: 30px;
+  }
+  
+  .heart:before,
+  .heart:after {
+	content: "";
+	background-color: red;
+	border-radius: 50%;
+	height: 30px;
+	position: absolute;
+	width: 30px;
+  }
+  
+  .heart:before {
+	top: -15px;
+	left: 0;
+  }
+  
+  .heart:after {
+	left: 15px;
+	top: 0;
+  }
+
+
+
+
+    /*Community area*/
+
+	
