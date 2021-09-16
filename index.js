@@ -72,7 +72,7 @@ function myFunction() {
 const gitalk = new Gitalk({
   clientID: '20856ef13498ffcf01a4',
   clientSecret: '28aaae2322eb8fbd267870494c47f0a0c5febe98',
-  repo: 'CosmicBee/block_bears',      // The repository of store comments,
+  repo: 'CosmicBee/block_bearsComments',      // The repository of store comments,
   owner: 'CosmicBee',
   admin: ['CosmicBee'],
   id: location.pathname ,     // Ensure uniqueness and length less than 50
