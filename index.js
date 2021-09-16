@@ -1,16 +1,16 @@
 //Crypto wallet alert
 
 function myFunction() {
-    alert("Add the new crypto wallet for coffee ");
+    alert("Thank you🙏for the ramen🍜:0x6BD06B139f44cac8652D158567C3F13c772a3bdE  ");
   }
 
   function myD() {
-    alert("Wallet for the donations ");
+    alert("Thank you your kindness will bring many 🐼bears🐻 a brighter future✨:W0xC1bD9881120aDbdE106CB6d1D75dEe7c87EA1137 ");
   }
 
 
   function myGame() {
-    alert("Wallet for the Game Donations ");
+    alert("Thank you for helping get this community to the next level🎮:0x5B76D4CBF1a3FF4c4Cd201a7a82a4BF6B17c7C9f  ");
   }
 
 //teddy lovebear
@@ -111,15 +111,22 @@ function myFunction() {
 
 
 
-    const gitalk = new Gitalk({
-      clientID: 'GitHub Application Client ID',
-      clientSecret: 'GitHub Application Client Secret',
-      repo: 'GitHub repo',      // The repository of store comments,
-      owner: 'GitHub repo owner',
-      admin: ['GitHub repo owner and collaborators, only these guys can initialize github issues'],
-      id: location.pathname,      // Ensure uniqueness and length less than 50
-      distractionFreeMode: false  // Facebook-like distraction free mode
-    })
-    
-    gitalk.render('gitalk-container')
-    
+
+const gitalk = new Gitalk({
+  clientID: '20856ef13498ffcf01a4',
+  clientSecret: '28aaae2322eb8fbd267870494c47f0a0c5febe98',
+  repo: 'CosmicBee/block_bears',      // The repository of store comments,
+  owner: 'CosmicBee',
+  admin: ['CosmicBee'],
+  id: location.pathname ,     // Ensure uniqueness and length less than 50
+  distractionFreeMode: false  // Facebook-like distraction free mode
+})
+
+gitalk.render('gitalk-container')
+
+
+
+
+
+
+
