@@ -43,9 +43,7 @@ function myH() {
   alert("You've got this. I believe in you.");
 }
 
-function myN() {
-  alert("You are amazing! I love you 💖");
-}
+
 
 function myRarm() {
   alert("I love you no matter what. ");
