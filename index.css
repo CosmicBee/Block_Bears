@@ -19,7 +19,7 @@ html{
 button{
 	padding: 20px;
 	margin: 20px;
-	border-radius: 5px;
+	border-radius: 30px;
 	border-color: greenyellow;
 	color: orangered;
 	background-color:#859BFF;
@@ -28,7 +28,7 @@ button{
 button:hover{
 	color: powderblue;
 	border-color: powderblue;
-	background-color: #da5959;
+	background-color: #fd749dda;
 }
 
 
@@ -318,7 +318,7 @@ ul.topnav {
   padding: 0;
   overflow: hidden;
   position: fixed;
- 
+ border-radius: 30px;
 }
 
 ul.topnav li {float: left;}
