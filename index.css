@@ -54,7 +54,10 @@ button:hover{
 	  
   }
 
-
+/*small bears everywhere on page*/
+.bbears{
+	border: none;
+   }
 
 
 
@@ -409,9 +412,3 @@ img {
 list-style: none;
 }
 
-
-
-/*small bears everywhere on page*/
-.bbears{
- border: none;
-}
