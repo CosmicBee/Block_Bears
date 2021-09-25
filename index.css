@@ -408,4 +408,10 @@ img {
   ul {
 list-style: none;
 }
-	
+
+
+
+/*small bears everywhere on page*/
+.bbears{
+ border: none;
+}
