@@ -12,7 +12,7 @@ html{
 	background-color: black;
 	background: url('https://pro2-bar-s3-cdn-cf3.myportfolio.com/d0d86074-c0d0-4676-9f9b-20ee02d5064a/e92ed7b4-12b8-45cf-9917-8569250fde2d_rw_1920.png?h=f797cb6281b607b617ccb0acfe325e36') no-repeat center fixed;     
     background-size: cover;
-	
+	scroll-behavior: smooth;
 }
 
 
