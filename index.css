@@ -27,7 +27,7 @@ button{
 button:hover{
 	color: powderblue;
 	border-color: powderblue;
-	background-color: #fd749dda;
+	background-color: #c53939;
 }
 
 
@@ -93,9 +93,7 @@ h2{
 	-webkit-text-fill-color: transparent;
 }
 
-p1{
-    color: #0468BF;
-}
+
 
 i:hover{
 color: rgb(230, 78, 78);
